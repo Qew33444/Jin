@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Rise and Fall of the Roman Empire Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .question {
+            margin: 20px 0;
+        }
+        .question h3 {
+            margin-bottom: 10px;
+        }
+        .question ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .question li {
+            margin: 5px 0;
+        }
+        .correct-answer, .wrong-answer, .answers {
+            display: none;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #e8f8f5;
+            border: 1px solid #1abc9c;
+            color: #1abc9c;
+            display: none;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #1abc9c;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>The Rise and Fall of the Roman Empire Quiz</h1>
+    <p>The Roman Empire was one of the most influential and expansive civilizations in history. Its rise began in the 8th century BCE with the founding of Rome, a city-state on the Italian Peninsula. Initially a republic, Rome expanded its territories through a series of military conquests and alliances. By the 1st century BCE, Rome had transformed from a republic into an empire under the rule of Augustus Caesar, marking the beginning of the Roman Empire.</p>
+    <p>During its peak, the Roman Empire controlled vast territories across Europe, North Africa, and the Middle East. Its governance was characterized by a complex bureaucracy and a sophisticated legal system. Roman law, including principles such as “innocent until proven guilty,” laid the foundation for many modern legal systems. The Empire also made significant contributions to architecture and engineering, including the construction of roads, aqueducts, and monumental buildings like the Colosseum and the Pantheon.</p>
+    <p>However, the Roman Empire faced numerous challenges that contributed to its decline. Internal strife, political corruption, and economic difficulties weakened the Empire. Additionally, invasions by barbarian tribes such as the Visigoths and Vandals further destabilized the Empire. In 395 CE, the Roman Empire was officially divided into the Western and Eastern Roman Empires. The Western Roman Empire faced increasing pressures and eventually fell in 476 CE, while the Eastern Roman Empire, known as the Byzantine Empire, continued to thrive for nearly another thousand years until its fall in 1453 CE.</p>
+    <p>The legacy of the Roman Empire is profound and enduring. Its cultural, legal, and architectural achievements continue to influence modern societies. The Latin language, which was the language of the Romans, evolved into the Romance languages, including Italian, French, Spanish, Portuguese, and Romanian. Roman law and engineering principles remain fundamental in contemporary practice and scholarship.</p>
+
+    <!-- Questions start here -->
+    <div class="question">
+        <h3>1. When did the Roman Empire begin its rise?</h3>
+        <ul>
+            <li><input type="radio" name="q1" value="a"> In the 1st century CE</li>
+            <li><input type="radio" name="q1" value="b"> In the 8th century BCE</li>
+            <li><input type="radio" name="q1" value="c"> In the 5th century CE</li>
+            <li><input type="radio" name="q1" value="d"> In the 3rd century BCE</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3>2. Who was the first emperor of the Roman Empire?</h3>
+        <ul>
+            <li><input type="radio" name="q2" value="a"> Julius Caesar</li>
+            <li><input type="radio" name="q2" value="b"> Augustus Caesar</li>
+            <li><input type="radio" name="q2" value="c"> Nero</li>
+            <li><input type="radio" name="q2" value="d"> Constantine</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3>3. What marked the beginning of the Roman Empire?</h3>
+        <ul>
+            <li><input type="radio" name="q3" value="a"> The division into Western and Eastern Roman Empires</li>
+            <li><input type="radio" name="q3" value="b"> The fall of the Western Roman Empire</li>
+            <li><input type="radio" name="q3" value="c"> The transition from a republic to an empire under Augustus Caesar</li>
+            <li><input type="radio" name="q3" value="d"> The invasion by barbarian tribes</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3>4. What are some of the architectural achievements of the Roman Empire?</h3>
+        <ul>
+            <li><input type="radio" name="q4" value="a"> The Great Wall of China and the Taj Mahal</li>
+            <li><input type="radio" name="q4" value="b"> The Eiffel Tower and the Berlin Wall</li>
+            <li><input type="radio" name="q4" value="c"> The Colosseum, Pantheon, and aqueducts</li>
+            <li><input type="radio" name="q4" value="d"> The Pyramids of Giza and the Parthenon</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3>5. What was one of the major contributions of Roman law?</h3>
+        <ul>
+            <li><input type="radio" name="q5" value="a"> The concept of "innocent until proven guilty"</li>
+            <li><input type="radio" name="q5" value="b"> The principle of collective punishment</li>
+            <li><input type="radio" name="q5" value="c"> The system of jury trials</li>
+            <li><input type="radio" name="q5" value="d"> The establishment of religious courts</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3>6. What caused the decline of the Roman Empire?</h3>
+        <ul>
+            <li><input type="radio" name="q6" value="a"> Economic prosperity and political stability</li>
+            <li><input type="radio" name="q6" value="b"> Internal strife, political corruption, and barbarian invasions</li>
+            <li><input type="radio" name="q6" value="c"> Technological advancements and exploration</li>
+            <li><input type="radio" name="q6" value="d"> The unification of the Western and Eastern Empires</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3>7. When was the Roman Empire officially divided?</h3>
+        <ul>
+            <li><input type="radio" name="q7" value="a"> 476 CE</li>
+            <li><input type="radio" name="q7" value="b"> 1453 CE</li>
+            <li><input type="radio" name="q7" value="c"> 395 CE</li>
+            <li><input type="radio" name="q7" value="d"> 1 CE</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3>8. What was the Eastern Roman Empire known as after the fall of the Western Roman Empire?</h3>
+        <ul>
+            <li><input type="radio" name="q8" value="a"> The Holy Roman Empire</li>
+            <li><input type="radio" name="q8" value="b"> The Byzantine Empire</li>
+            <li><input type="radio" name="q8" value="c"> The Ottoman Empire</li>
+            <li><input type="radio" name="q8" value="d"> The Carolingian Empire</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3>9. When did the Byzantine Empire fall?</h3>
+        <ul>
+            <li><input type="radio" name="q9" value="a"> 476 CE</li>
+            <li><input type="radio" name="q9" value="b"> 1453 CE</li>
+            <li><input type="radio" name="q9" value="c"> 1000 CE</li>
+            <li><input type="radio" name="q9" value="d"> 800 CE</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3>10. What is one lasting legacy of the Roman Empire?</h3>
+        <ul>
+            <li><input type="radio" name="q10" value="a"> The development of modern automobiles</li>
+            <li><input type="radio" name="q10" value="b"> The creation of the Internet</li>
+            <li><input type="radio" name="q10" value="c"> The Latin language and its influence on Romance languages</li>
+            <li><input type="radio" name="q10" value="d"> The establishment of global trade routes</li>
+        </ul>
+    </div>
+
+    <button onclick="checkAnswers()">Submit Answers</button>
+
+    <div class="result">
+        <p class="correct-answer">All your answers are correct! Well done!</p>
+        <p class="wrong-answer">Some answers are incorrect. Please review and try again.</p>
+        <div class="answers">
+            <h3>Correct Answers:</h3>
+            <ul>
+                <li>1. In the 8th century BCE</li>
+                <li>2. Augustus Caesar</li>
+                <li>3. The transition from a republic to an empire under Augustus Caesar</li>
+                <li>4. The Colosseum, Pantheon, and aqueducts</li>
+                <li>5. The concept of "innocent until proven guilty"</li>
+                <li>6. Internal strife, political corruption, and barbarian invasions</li>
+                <li>7. 395 CE</li>
+                <li>8. The Byzantine Empire</li>
+                <li>9. 1453 CE</li>
+                <li>10. The Latin language and its influence on Romance languages</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        function checkAnswers() {
+            // Correct answers
+            const answers = {
+                q1: 'b',
+                q2: 'b',
+                q3: 'c',
+                q4: 'c',
+                q5: 'a',
+                q6: 'b',
+                q7: 'c',
+                q8: 'b',
+                q9: 'b',
+                q10: 'c'
+            };
+
+            let correct = true;
+
+            for (const [question, correctAnswer] of Object.entries(answers)) {
+                const selectedAnswer = document.querySelector(`input[name="${question}"]:checked`);
+                if (!selectedAnswer || selectedAnswer.value !== correctAnswer) {
+                    correct = false;
+                    break;
+                }
+            }
+
+            document.querySelector('.result').style.display = 'block';
+            if (correct) {
+                document.querySelector('.correct-answer').style.display = 'block';
+                document.querySelector('.wrong-answer').style.display = 'none';
+            } else {
+                document.querySelector('.correct-answer').style.display = 'none';
+                document.querySelector('.wrong-answer').style.display = 'block';
+            }
+            document.querySelector('.answers').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
